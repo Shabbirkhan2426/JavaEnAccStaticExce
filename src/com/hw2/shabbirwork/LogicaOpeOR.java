@@ -1,0 +1,22 @@
+package com.hw2.shabbirwork;
+
+import java.util.Scanner;
+
+public class LogicaOpeOR {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        char ch;
+
+        System.out.println("Enter one letter ");
+        ch = input.next().charAt(0); // question
+
+        if(ch == 'a'  ||  ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+            System.out.println("vowel");
+
+        }else{
+            System.out.println("consonant");
+        }
+    }
+}
